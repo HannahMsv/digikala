@@ -190,7 +190,7 @@ ul{
 }
 .products{
     background-color: #ffffff;
-    width: 14%;
+    width: 13.5%;
 }
 #right-offers{
     margin:0 16px;
@@ -229,6 +229,62 @@ ul{
     overflow: hidden;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+#ads-offer{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px 5px;
+    background-color:#ecf0ed;
+    min-height: 50px;
+    padding: 10px 20px;
+}
+#right-col-offer{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+ }
+ #right-col-offer h6{
+    margin: 0 10px;
+    color: #39ae00;
+    font-size: 25px;
+}
+#right-col-offer p{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #39ae00;
+    padding: 4px 20px;
+    border-radius:15px;
+}
+#left-col-offer{
+    display: flex;
+    column-gap: 5px;
+    margin-right:90px;
+}
+.market-products{
+    position: relative;
+}
+.market-products span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ef4056;
+    border-radius: 15px;
+    padding: 4px 8px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+#more-pr{
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight:500;
+    /* height: 25px; */
+    padding:15px 20px;
+    color: #39ae00;
+    background-color: #ffffff;
+    border-radius:35px;
 }
 /* <--- images ---> */
 
@@ -272,4 +328,10 @@ width: 100%;
 }
 .right-image{
     height: 142px;
-}    
+}  
+#left-col-offer img{
+    border: 8px solid white;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}  
