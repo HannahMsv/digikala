@@ -185,8 +185,8 @@ ul{
 .discount{
     border-radius: 20px;
     overflow: hidden;
-    height: 200px;
-    width: 280px;
+    height: 230px;
+    width: 25%;
     background-image: url(../images/products/room.jpg);
     background-position: center;
     background-size: cover;
@@ -310,10 +310,11 @@ ul{
 #line-one{
     margin-top: 30px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: auto auto auto auto auto auto;
+    /* align-items: center;
+    justify-content: space-between; */
 }
 #line-two{
     margin-top: 30px;
@@ -326,6 +327,9 @@ ul{
 #category-wrapper h4{
     font-size: 22px;
     font-weight: 500;
+}
+.categoty{
+    margin-top: 25px;
 }
 /* <--- images ---> */
 
